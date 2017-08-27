@@ -1,0 +1,25 @@
+{
+  "name": "slack2",
+  "version": "1.0.0",
+  "description": "massr",
+  "main": "index.js",
+  "author": "Kan Fushihara <kan.fushihara@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}.slack.com/",
+    "serviceName": "Slack",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "wording": {
+      "url": "slack.com",
+      "team": "Slack"
+    },
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
